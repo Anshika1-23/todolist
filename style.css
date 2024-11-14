@@ -1,4 +1,4 @@
-/* General Styling */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,7 +23,6 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Input and Buttons Container */
 .controls {
     display: flex;
     justify-content: center;
@@ -90,7 +89,6 @@ button:disabled {
     outline: none;
 }
 
-/* Task List */
 #task-list {
     list-style-type: none;
     padding: 0;
@@ -121,7 +119,6 @@ li:hover {
     transform: translateY(-2px);
 }
 
-/* Empty Tasks Message */
 #no-tasks-msg {
     text-align: center;
     color: #999;
@@ -130,7 +127,6 @@ li:hover {
     margin-bottom: 30px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     body {
         padding: 10px;
